@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: email-with-gmail-smtp
+
+    
+    
+  mail:
+    host: smtp.gmail.com
+    username: dummy.for.smtp.integration@gmail.com
+    password: lbha ceyg dcls vozy
+    port: 587
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
